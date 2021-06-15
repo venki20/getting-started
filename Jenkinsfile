@@ -6,7 +6,7 @@ pipeline {
         label 'ubuntu-1804 && amd64 && docker'
     }
     stages {
-        stage('build and push the code') {
+        stage('build and push') {
             when {
                 branch 'master'
             }
